@@ -11,6 +11,7 @@ for line in head.splitlines():
     if not s or s.startswith('<meta charset') or 'name="viewport"' in s:
         continue
     keep.append(s)
-out = "\n".join(keep) + "\n" + body
+# the artifact host serves no .onnx, so the preview fetches the same bytes published under a .wasm name
+out = "\n".join(keep) + "\n<script>document.documentElement.dataset.model = 'model/zoolingua-sd10.wasm';</script>\n" + body
 (root / "artifact.html").write_text(out, encoding="utf-8")
 print("artifact.html", len(out), "bytes")

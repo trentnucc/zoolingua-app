@@ -264,7 +264,8 @@
         ort.env.wasm.wasmPaths = new URL('ort/', location.href).href; // absolute: the runtime import()s its .mjs loader from here
         ort.env.wasm.numThreads = 1;
         ort.env.wasm.proxy = false;
-        const buf = await fetchProgress('model/zoolingua-sd10.onnx', (p) => { state.model.progress = p; renderModelPill(); });
+        const modelUrl = document.documentElement.dataset.model || 'model/zoolingua-sd10.onnx'; // a host may serve the same bytes under another name
+        const buf = await fetchProgress(modelUrl, (p) => { state.model.progress = p; renderModelPill(); });
         session = await ort.InferenceSession.create(buf, { executionProviders: ['wasm'], graphOptimizationLevel: 'all' });
         state.model.status = 'ready'; renderModelPill();
       } catch (e) {
