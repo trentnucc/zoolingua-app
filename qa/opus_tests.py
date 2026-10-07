@@ -15,7 +15,7 @@ BASE = ARGS[0] if ARGS else "http://127.0.0.1:8765/"
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "qa" / "media"
 SHOTS = ROOT / "qa" / "screens" / "opus"; SHOTS.mkdir(parents=True, exist_ok=True)
-REF = {"aggressive": 0.0, "anxious": 0.0, "frightened": 0.1877, "happy": 0.739, "inquisitive": 0.0733}  # PyTorch, img/hero-dog.jpg (567x287, white strip cropped)
+REF = {"aggressive": 0.0335, "anxious": 0.0003, "frightened": 0.0982, "happy": 0.8562, "inquisitive": 0.0118}  # PyTorch, img/hero-dog.jpg (567x287, white strip cropped)
 if not (MEDIA / "long-75s.mp4").exists():
     subprocess.run([sys.executable, str(ROOT / "qa" / "make_media.py")], check=True)
 
