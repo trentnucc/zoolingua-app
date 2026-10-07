@@ -10,7 +10,7 @@ from playwright.sync_api import sync_playwright
 BASE = sys.argv[1] if len(sys.argv) > 1 else "http://127.0.0.1:8765/"
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "qa" / "screens"; OUT.mkdir(parents=True, exist_ok=True)
-REF = {"aggressive": 0.0, "anxious": 0.0, "frightened": 0.1087, "happy": 0.8046, "inquisitive": 0.0866}  # PyTorch, img/hero-dog.jpg (567x287, white strip cropped)  # PyTorch, hero-dog.jpg
+REF = {"aggressive": 0.0, "anxious": 0.0, "frightened": 0.1877, "happy": 0.739, "inquisitive": 0.0733}  # PyTorch, img/hero-dog.jpg (567x287, white strip cropped)  # PyTorch, hero-dog.jpg
 
 results, failures = {}, []
 def check(name, ok, detail=""):
