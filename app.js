@@ -714,12 +714,12 @@
     const b = $('#backdrop'), s = $('#' + id);
     if (!$('.sheet.open')) lastFocus = document.activeElement;
     b.hidden = false; void b.offsetHeight; // flush layout so the slide-up transition runs, without waiting on a frame
-    b.classList.add('open'); s.classList.add('open'); s.setAttribute('aria-hidden', 'false');
+    b.classList.add('open'); s.classList.add('open'); s.setAttribute('aria-hidden', 'false'); s.inert = false;
     try { $('.app').inert = true; } catch (e) {} // keep focus and screen readers inside the sheet
     const closeBtn = $('[data-close]', s); if (closeBtn) closeBtn.focus({ preventScroll: true });
   }
   function closeSheets() {
-    $$('.sheet').forEach((s) => { s.classList.remove('open'); s.setAttribute('aria-hidden', 'true'); });
+    $$('.sheet').forEach((s) => { s.classList.remove('open'); s.setAttribute('aria-hidden', 'true'); s.inert = true; }); // inert at once, before the slide-down ends
     const b = $('#backdrop'); b.classList.remove('open'); setTimeout(() => { b.hidden = true; }, 220);
     try { $('.app').inert = false; } catch (e) {}
     if (lastFocus && lastFocus.isConnected && typeof lastFocus.focus === 'function') { try { lastFocus.focus({ preventScroll: true }); } catch (e) {} }
@@ -747,6 +747,7 @@
     $$('[data-back]').forEach((b) => { b.innerHTML = ICONS.back; b.addEventListener('click', navBack); });
     $$('[data-chat]').forEach((b) => b.addEventListener('click', () => openChat(b.dataset.chat === 'result' && state.result ? 'What does my reading mean?' : '')));
     $$('[data-close]').forEach((b) => b.addEventListener('click', closeSheets));
+    $$('.sheet').forEach((s) => { s.inert = true; }); // closed sheets start out unfocusable
     $('#backdrop').addEventListener('click', closeSheets);
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && $('.sheet.open')) closeSheets(); });
     // fill icons (decorative: every icon-only control carries its own aria-label)
