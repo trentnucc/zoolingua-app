@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zoolingua</title>
+<meta name="description" content="Understand what your dog is telling you. Photo and video readings grounded in animal behavior science.">
+<meta name="theme-color" content="#FBF7F4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0D1F24" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Zoolingua">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="64x64" href="icons/favicon-64.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <img class="logo" src="img/logo.png" alt="">
+    <div><div class="wordmark">ZOOLINGUA</div><div class="tagline">Understand what your dog is telling you.</div></div>
+    <span class="spacer"></span>
+    <button class="pill-btn" id="installBtn" hidden data-icon="plus">Install</button>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section data-screen="home">
+      <h1 class="sr-only">Zoolingua home</h1>
+      <div class="install-tip" id="installTip" hidden>
+        <p><b>Add Zoolingua to your home screen</b>Tap Share, then "Add to Home Screen". It opens like an app, no store needed.</p>
+        <button class="x" id="installTipClose" aria-label="Dismiss">×</button>
+      </div>
+      <div class="hero"><img id="heroImg" src="img/hero-dog.jpg" alt="Your dog"><div class="hero-caption" id="heroCap"></div></div>
+      <button class="understand-card" data-go="understand">
+        <span class="cam" data-icon="camera"></span>
+        <span style="flex:1;min-width:0"><h2>Understand My Dog</h2><p>Upload a photo or video. Capture a moment for behavior analysis.</p><span class="model-pill" id="modelPill"><span class="dot"></span>On-device model</span></span>
+        <span class="go" data-icon="arrow"></span>
+      </button>
+      <div class="grid-2">
+        <button class="tile" data-go="community"><span class="ico ico-teal" data-icon="community"></span><h3>Community</h3><p>Connect with dog owners</p></button>
+        <button class="tile" data-go="learn"><span class="ico ico-orange" data-icon="learn"></span><h3>Learn About Dog Behavior</h3><p>Articles &amp; guides</p></button>
+        <button class="tile" data-chat="home"><span class="ico ico-purple" data-icon="chat"></span><h3>Ask Zoolingua</h3><p>Answers 24/7, experts at launch</p></button>
+        <button class="tile" id="proTile"><span class="ico ico-mint" data-icon="pro"></span><h3>Zoolingua Pro</h3><p>For professionals &amp; organizations</p></button>
+      </div>
+      <div class="card tip">
+        <span class="ico ico-orange" data-icon="bulb"></span>
+        <div style="flex:1;min-width:0"><div class="eyebrow">Today's tip</div><p id="tipText" style="font-size:14px;margin-top:4px"></p></div>
+      </div>
+      <div id="recentWrap" hidden>
+        <div class="row" style="justify-content:space-between"><h2 style="font-size:17px">Recent readings</h2><button class="btn btn-ghost btn-sm" data-go="mydog">See all</button></div>
+        <div class="recent" id="recent"></div>
+      </div>
+    </section>
+
+    <!-- UNDERSTAND / CAPTURE -->
+    <section data-screen="understand" hidden>
+      <div class="screen-head"><button class="icon-btn" data-back aria-label="Back"></button><h1>Understand My Dog</h1></div>
+      <div id="captureOptions" class="stack">
+        <button class="option" type="button" data-pick="fileImage"><span class="ico" data-icon="photo"></span><span><h3>Upload Photo</h3><p>JPG, PNG</p></span></button>
+        <button class="option" type="button" data-pick="fileVideo"><span class="ico" data-icon="video"></span><span><h3>Upload Video</h3><p>MP4, MOV · up to 60s</p></span></button>
+        <button class="option" type="button" data-pick="fileCamera"><span class="ico" data-icon="camera"></span><span><h3>Use Camera Now</h3><p>Capture a moment</p></span></button>
+        <button class="option" id="sampleClipBtn" type="button"><span class="ico ico-orange" style="background:var(--peach);color:var(--orange)" data-icon="paw"></span><span><h3>Try the sample clip</h3><p>No dog nearby? Read a 4-second clip of Milo</p></span></button>
+        <input type="file" id="fileImage" accept="image/*" hidden tabindex="-1" aria-hidden="true">
+        <input type="file" id="fileVideo" accept="video/*" hidden tabindex="-1" aria-hidden="true">
+        <input type="file" id="fileCamera" accept="image/*" capture="environment" hidden tabindex="-1" aria-hidden="true">
+      </div>
+      <div class="preview" id="preview" hidden><div id="previewMedia"></div><button class="icon-btn clear" id="clearCapture" aria-label="Remove" data-icon="close"></button></div>
+      <div class="note" data-icon="info"><span>Video often works best for behavior in motion. Add context to improve your result.</span></div>
+      <div><h3 style="margin-bottom:8px">Where is your dog?</h3><div class="chips" id="ctxChips"></div></div>
+      <label class="field">Anything else you'd like to add? (optional)
+        <textarea id="noteInput" rows="2" placeholder="Add notes about what's happening..." maxlength="200"></textarea>
+        <span class="counter" id="noteCount">0/200</span>
+      </label>
+      <button class="btn btn-primary" id="analyzeBtn" disabled>Analyze behavior</button>
+      <video id="hiddenVideo" muted playsinline preload="auto" aria-hidden="true" tabindex="-1" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none"></video>
+    </section>
+
+    <!-- ANALYZING -->
+    <section data-screen="analyzing" class="analyzing" hidden>
+      <div class="scan"><img id="scanImg" src="" alt=""></div>
+      <h2>Reading your dog</h2>
+      <p class="lede" id="analyzeStatus" role="status" aria-live="polite">Preparing</p>
+      <div class="progress" id="analyzeProgress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
+      <p class="small">Runs on your device. Nothing you upload leaves it.</p>
+    </section>
+
+    <!-- RESULT -->
+    <section data-screen="result" hidden>
+      <div class="screen-head center"><button class="icon-btn" data-back aria-label="Back"></button><h1>What your dog may be communicating.</h1><button class="icon-btn" id="shareBtn" aria-label="Share" data-icon="share"></button></div>
+      <div class="result-hero" id="resultMedia"></div>
+      <div class="card verdict-card">
+        <div class="verdict"><span class="face" id="verdictFace"></span><div><h2 id="verdictLabel"></h2><div class="conf" id="verdictConf"></div></div></div>
+        <div class="confbar" id="confBar"><span></span></div>
+        <p class="small" id="resultWhen" style="margin-top:8px"></p>
+      </div>
+      <div class="mixed" id="mixedNote" hidden><span data-icon="info"></span><span id="mixedText"></span></div>
+      <div class="card stack">
+        <div class="eyebrow">Five states</div>
+        <div class="breakdown" id="breakdown"></div>
+        <div class="timeline" id="timelineWrap" hidden>
+          <div class="eyebrow" style="margin-top:6px">Mood over the clip</div>
+          <div class="strip" id="timelineStrip" role="img" aria-label="Mood over the clip"></div>
+          <div class="axis"><span>0s</span><span id="timelineEnd"></span></div>
+          <div class="legend" id="timelineLegend"></div>
+        </div>
+      </div>
+      <div class="card stack">
+        <h3>Zoolingua's interpretation</h3>
+        <p class="lede" id="readText"></p>
+        <p class="ctx-line" id="ctxLine" hidden></p>
+        <span class="badge" data-icon="shield">Grounded in Dr. Con's Animal Behavior Methodology</span>
+      </div>
+      <div class="card stack">
+        <h3>What this may mean</h3><p class="lede" id="meanText"></p>
+        <h3>Why it may be happening</h3><p class="lede" id="whyText"></p>
+        <h3>Suggested next steps</h3><div class="steps" id="stepsList"></div>
+        <h3>When to seek more help</h3><p class="lede" id="helpText"></p>
+      </div>
+      <button class="btn btn-primary" id="learnMoreBtn">Learn More</button>
+      <div class="actions">
+        <button class="btn btn-secondary" data-chat="result" data-icon="chat">Ask Zoolingua</button>
+        <button class="btn btn-secondary" id="saveBtn"></button>
+      </div>
+      <button class="btn btn-ghost" id="anotherBtn">Read another moment</button>
+      <p class="disclaimer">Behavioral guidance only. Not a substitute for veterinary care.</p>
+    </section>
+
+    <!-- COMMUNITY -->
+    <section data-screen="community" hidden>
+      <div class="screen-head"><h1>Community</h1></div>
+      <div class="ask-card">
+        <div style="flex:1;min-width:0"><h3>Ask the Community</h3><p class="small" style="margin:4px 0 10px">Share your question and get support from fellow dog owners.</p><button class="btn btn-secondary btn-sm" id="newPostBtn">Start a Discussion</button></div>
+        <span class="bubble" data-icon="comment"></span>
+      </div>
+      <p class="small" style="margin-top:-6px">Sample discussions · your own posts stay on this device.</p>
+      <div class="chips-scroll" id="filterChips"></div>
+      <div class="stack" id="feed"></div>
+      <div class="ask-card">
+        <span class="bubble" data-icon="chat"></span>
+        <div style="flex:1;min-width:0"><h3>Ask Zoolingua</h3><p class="small">24/7 guidance now · live behavior experts at launch.</p></div>
+        <button class="btn btn-primary btn-sm" data-chat="community">Chat Now</button>
+      </div>
+    </section>
+
+    <!-- POST -->
+    <section data-screen="post" hidden>
+      <div class="screen-head"><button class="icon-btn" data-back aria-label="Back"></button><h1>Discussion</h1></div>
+      <div id="postView"></div>
+      <div class="stack" id="replies"></div>
+      <div class="composer"><textarea id="replyInput" rows="1" placeholder="Write a reply" aria-label="Write a reply"></textarea><button class="btn btn-primary" id="replyBtn">Reply</button></div>
+    </section>
+
+    <!-- LEARN -->
+    <section data-screen="learn" hidden>
+      <div class="screen-head"><h1>Learn</h1></div>
+      <p class="lede">Articles and guides grounded in Dr. Con's methodology.</p>
+      <div class="stack" id="articles"></div>
+    </section>
+    <section data-screen="article" hidden>
+      <div class="screen-head"><button class="icon-btn" data-back aria-label="Back"></button><h1 style="font-size:16px;color:var(--muted)">Learn</h1></div>
+      <div class="article" id="articleBody"></div>
+    </section>
+
+    <!-- MY DOG -->
+    <section data-screen="mydog" hidden>
+      <div class="screen-head"><h1>My Dog</h1><button class="icon-btn" id="editDogBtn" aria-label="Edit dog" data-icon="edit"></button></div>
+      <div class="card profile">
+        <img id="dogPhoto" src="" alt="">
+        <div style="flex:1;min-width:0"><h2 id="dogName"></h2><p class="small" id="dogMeta"></p><span class="sample-flag" id="sampleFlag">Sample profile · tap the pencil to add your dog</span></div>
+      </div>
+      <div class="stat-row"><div class="stat"><b class="num" id="statReadings">0</b><span>Readings</span></div><div class="stat"><b id="statMood">—</b><span>Usual mood</span></div><div class="stat"><b class="num" id="statRecords">0</b><span>Records</span></div></div>
+      <div class="subtabs" id="subtabs"><button data-sub="moods" aria-pressed="true">Moods</button><button data-sub="journal" aria-pressed="false">Journal</button><button data-sub="health" aria-pressed="false">Health</button></div>
+      <div id="moodsPane" class="card stack">
+        <div class="eyebrow">Mood over time · confidence of each reading</div>
+        <div id="moodChart"></div>
+        <div class="dist" id="dist" role="img" aria-label="Share of readings"></div>
+        <div class="legend" id="distLegend"></div>
+      </div>
+      <div id="journalPane" class="card" hidden><div id="journal"></div></div>
+      <div id="healthPane" class="card stack" hidden>
+        <div class="row" style="justify-content:space-between"><div class="eyebrow">Health records</div><button class="btn btn-primary btn-sm" id="addRecordBtn" data-icon="plus">Add</button></div>
+        <div id="records"></div>
+      </div>
+      <button class="btn btn-ghost btn-sm" id="resetBtn" style="align-self:center;color:var(--muted)">Reset demo data</button>
+    </section>
+  </main>
+
+  <nav class="tabbar" aria-label="Main">
+    <div class="tabbar-inner">
+      <button class="tab" data-tab="home">Home</button>
+      <button class="tab" data-tab="community">Community</button>
+      <button class="tab" data-tab="learn">Learn</button>
+      <button class="tab" data-tab="mydog">My Dog</button>
+    </div>
+  </nav>
+</div>
+
+<div class="sheet-backdrop" id="backdrop" hidden></div>
+
+<!-- Ask Zoolingua -->
+<div class="sheet" id="chatSheet" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Ask Zoolingua">
+  <div class="grab"></div>
+  <div class="sheet-head"><span class="avatar" style="background:var(--teal)">Z</span><div style="flex:1"><h2>Ask Zoolingua</h2><p class="small">Zoolingua guide · automated preview. Live behavior experts at launch.</p></div><button class="icon-btn" id="chatClear" aria-label="Clear chat" data-icon="trash"></button><button class="icon-btn" data-close aria-label="Close" data-icon="close"></button></div>
+  <div class="sheet-body"><div class="chat-log" id="chatLog"></div></div>
+  <div class="composer"><textarea id="chatInput" rows="1" placeholder="What's going on with your dog?" aria-label="Message the Zoolingua guide"></textarea><button class="btn btn-primary" id="chatSend">Send</button></div>
+  <p class="disclaimer">Behavioral guidance only. For urgent health concerns, call your vet.</p>
+</div>
+
+<!-- New discussion -->
+<div class="sheet" id="postSheet" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Start a discussion">
+  <div class="grab"></div>
+  <div class="sheet-head"><h2>Start a Discussion</h2><button class="icon-btn" data-close aria-label="Close" data-icon="close"></button></div>
+  <div class="sheet-body">
+    <label class="field">Title<input type="text" id="postTitle" placeholder="What's going on?" maxlength="90"></label>
+    <label class="field">Details<textarea id="postBody" rows="4" placeholder="Describe what happens and when. Other dog parents will chime in." maxlength="600"></textarea></label>
+    <div><div class="eyebrow" style="margin-bottom:6px">Tags</div><div class="chips" id="postTags"></div></div>
+    <button class="btn btn-primary" id="createPostBtn">Post discussion</button>
+  </div>
+</div>
+
+<!-- Add record -->
+<div class="sheet" id="recordSheet" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Add health record">
+  <div class="grab"></div>
+  <div class="sheet-head"><h2>Add a record</h2><button class="icon-btn" data-close aria-label="Close" data-icon="close"></button></div>
+  <div class="sheet-body">
+    <label class="field">Type<select id="recKind"><option value="vaccine">Vaccine</option><option value="med">Medication</option><option value="vet">Vet visit</option><option value="note">Note</option></select></label>
+    <label class="field">Title<input type="text" id="recTitle" placeholder="Rabies booster" maxlength="80"></label>
+    <label class="field">Date<input type="date" id="recDate"></label>
+    <label class="field">Notes<textarea id="recNote" rows="3" placeholder="Dose, clinic, next due date" maxlength="300"></textarea></label>
+    <button class="btn btn-primary" id="saveRecordBtn">Save record</button>
+  </div>
+</div>
+
+<!-- Edit dog -->
+<div class="sheet" id="dogSheet" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Your dog">
+  <div class="grab"></div>
+  <div class="sheet-head"><h2>Your dog</h2><button class="icon-btn" data-close aria-label="Close" data-icon="close"></button></div>
+  <div class="sheet-body">
+    <label class="field">Name<input type="text" id="dogNameInput" placeholder="Milo" maxlength="40"></label>
+    <div class="grid-2"><label class="field">Breed<input type="text" id="dogBreedInput" placeholder="Golden Retriever" maxlength="40"></label><label class="field">Age<input type="text" id="dogAgeInput" placeholder="3 yrs" maxlength="20"></label></div>
+    <label class="field">Photo<input type="file" id="dogPhotoInput" accept="image/*"></label>
+    <img id="dogPhotoPreview" alt="" hidden style="width:96px;height:96px;border-radius:50%;object-fit:cover">
+    <button class="btn btn-primary" id="saveDogBtn">Save</button>
+  </div>
+</div>
+
+<!-- Zoolingua Pro -->
+<div class="sheet" id="proSheet" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Zoolingua Pro">
+  <div class="grab"></div>
+  <div class="sheet-head"><h2>Zoolingua Pro</h2><button class="icon-btn" data-close aria-label="Close" data-icon="close"></button></div>
+  <div class="sheet-body">
+    <p class="lede">For veterinarians, trainers, behaviorists, shelters and rescues.</p>
+    <div class="steps">
+      <div class="step" data-icon="check"><span>Multi-dog dashboards and shared readings with clients</span></div>
+      <div class="step" data-icon="check"><span>Adoption-day readings for shelters, included in the adoption fee</span></div>
+      <div class="step" data-icon="check"><span>Behavior history that travels with the dog</span></div>
+    </div>
+    <div class="grid-2"><label class="field">Name<input type="text" id="proName" maxlength="60"></label><label class="field">Organization<input type="text" id="proOrg" maxlength="80"></label></div>
+    <label class="field">Role<select id="proRole"><option>Veterinarian</option><option>Trainer</option><option>Behaviorist</option><option>Shelter or rescue</option><option>Other</option></select></label>
+    <label class="field">Email<input type="email" id="proEmail" placeholder="you@clinic.com" maxlength="120"></label>
+    <button class="btn btn-primary" id="proRequestBtn">Request early access</button>
+  </div>
+</div>
+
+<!-- Share preview -->
+<div class="sheet" id="shareSheet" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Share reading">
+  <div class="grab"></div>
+  <div class="sheet-head"><h2>Share this reading</h2><button class="icon-btn" data-close aria-label="Close" data-icon="close"></button></div>
+  <div class="sheet-body">
+    <img class="share-img" id="shareImg" alt="Share card">
+    <a class="btn btn-primary" id="shareDl" download="zoolingua-reading.jpg" href="#">Save image</a>
+    <p class="small" style="text-align:center">On a phone, press and hold the image to save or share it.</p>
+  </div>
+</div>
+
+<!-- Install help -->
+<div class="sheet" id="installSheet" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Add to home screen">
+  <div class="grab"></div>
+  <div class="sheet-head"><h2>Add to your home screen</h2><button class="icon-btn" data-close aria-label="Close" data-icon="close"></button></div>
+  <div class="sheet-body">
+    <div class="steps">
+      <div class="step" data-icon="check"><span><b>iPhone:</b> tap the Share button in Safari, then "Add to Home Screen".</span></div>
+      <div class="step" data-icon="check"><span><b>Android:</b> open the browser menu, then "Install app" or "Add to Home screen".</span></div>
+      <div class="step" data-icon="check"><span>Zoolingua then opens full screen like any app, and the model stays on your phone.</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="ort/ort.min.js"></script>
+<script src="app.js?v=5"></script>
+</body>
+</html>
