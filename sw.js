@@ -1,7 +1,7 @@
 /* Zoolingua service worker: offline shell + cached model and runtime.
    Shell files are network-first (so updates land), the big binaries are cache-first. */
-const VERSION = 'zl-v8';
-const SHELL = ['./', 'index.html', 'styles.css?v=8', 'app.js?v=8', 'manifest.json', 'img/logo.png', 'img/hero-dog.jpg', 'img/how-it-works.jpg', 'img/sample-clip.mp4', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-64.png'];
+const VERSION = 'zl-v9';
+const SHELL = ['./', 'index.html', 'styles.css?v=9', 'app.js?v=9', 'manifest.json', 'img/logo.png', 'img/hero-dog.jpg', 'img/how-it-works.jpg', 'img/sample-clip.mp4', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-64.png'];
 const HEAVY = ['ort/ort.min.js', 'ort/ort-wasm-simd-threaded.wasm', 'ort/ort-wasm-simd-threaded.mjs', 'model/zoolingua-sd10.onnx'];
 
 self.addEventListener('install', (e) => {
