@@ -617,7 +617,8 @@
   screens.article = function (params) {
     const a = ARTICLES.find((x) => x.id === params.id); if (!a) { back(); return; }
     let body;
-    const cueTable = () => '<div class="table-wrap"><table><thead><tr><th>Cue</th>' + CLASSES.map((c) => '<th>' + SHORT[c] + '</th>').join('') + '</tr></thead><tbody>' + CUE_KEYS.map((k) => '<tr><th>' + k.charAt(0).toUpperCase() + k.slice(1) + '</th>' + CLASSES.map((c) => '<td>' + esc(CUES[c][k]) + '</td>').join('') + '</tr>').join('') + '</tbody></table></div>';
+    const TREE_ORDER = ['happy', 'aggressive', 'inquisitive', 'anxious', 'frightened']; // left to right as on Dr. Con's sheet
+    const cueTable = () => '<div class="table-wrap"><table><thead><tr><th>Cue</th>' + TREE_ORDER.map((c) => '<th>' + SHORT[c] + '</th>').join('') + '</tr></thead><tbody>' + CUE_KEYS.map((k) => '<tr><th>' + k.charAt(0).toUpperCase() + k.slice(1) + '</th>' + TREE_ORDER.map((c) => '<td>' + esc(CUES[c][k]) + '</td>').join('') + '</tr>').join('') + '</tbody></table></div>';
     if (a.emo) {
       const e = EMO[a.emo];
       body = ['<p>' + esc(e.read) + '</p>', "<h3>Dr. Con's cues for this state</h3><div class=\"cues\">" + CUE_KEYS.map((k) => '<b>' + k.charAt(0).toUpperCase() + k.slice(1) + '</b><span>' + esc(CUES[a.emo][k]) + '</span>').join('') + '</div>', '<h3>What it may mean</h3><p>' + esc(e.mean) + '</p>', '<h3>Why it may be happening</h3><p>' + esc(e.why) + '</p>', '<h3>What to try</h3><ul>' + e.steps.map((s) => '<li>' + esc(s) + '</li>').join('') + '</ul>', '<h3>When to seek more help</h3><p>' + esc(e.help) + '</p>'].join('');

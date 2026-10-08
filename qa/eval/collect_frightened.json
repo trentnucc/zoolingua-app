@@ -153,9 +153,9 @@
    "w": 1920,
    "h": 1080,
    "store_idx": 69,
-   "status": "keep",
-   "confidence": 0.7,
-   "note": "tail clamped between hind legs, ears half back, weight shifted back on slightly crouched hind legs, wary stare"
+   "status": "reject",
+   "confidence": 0.6,
+   "note": "second look vs rubric: tail tucked but head up, ears neutral, standing alert; reads wary/anxious not clear fear"
   },
   "f30134ddd": {
    "title": "File:USMC-090313-M-7590G-004.jpg",
@@ -322,9 +322,9 @@
    "w": 6016,
    "h": 4000,
    "store_idx": 5010,
-   "status": "keep",
-   "confidence": 0.7,
-   "note": "puppy crouched low with hindquarters tucked and forelegs splayed, head lowered, ears drooped back, eyes averted downward"
+   "status": "reject",
+   "confidence": 0.55,
+   "note": "second look: puppy crouch with half-closed eyes and drooping ears; could be sleepy/submissive, not clear fear"
   },
   "f3026038f": {
    "title": "File:Dog Rescued from Metro-North Tracks (13740137883).jpg",
@@ -335,9 +335,9 @@
    "w": 4128,
    "h": 2322,
    "store_idx": 3501,
-   "status": "keep",
-   "confidence": 0.7,
-   "note": "ears pinned flat back, head lowered, wide eyes looking up, hunched stance pressed near handler's legs (same rescued dog as f3021b640)"
+   "status": "reject",
+   "confidence": 0.65,
+   "note": "same dog as f3021b640, front view; ears back and worried eyes but weaker and near-duplicate"
   },
   "f30273725": {
    "title": "File:Dog on chain in Alaska 01.jpg",
@@ -361,9 +361,9 @@
    "w": 2573,
    "h": 2845,
    "store_idx": 3703,
-   "status": "keep",
-   "confidence": 0.7,
-   "note": "legs splayed and braced on wash table, body lowered, ears flattened back, wide eyes, lips drawn back; handler masked"
+   "status": "reject",
+   "confidence": 0.6,
+   "note": "second look: braced splayed stance under spray, ears out to side, head partly lowered; bracing/stress, rubric points to anxious"
   },
   "f30299c41": {
    "title": "File:Dog for sale as meat at Kashgar market.jpg",
@@ -439,9 +439,9 @@
    "w": 4288,
    "h": 2848,
    "store_idx": 6038,
-   "status": "keep",
-   "confidence": 0.7,
-   "note": "rescued pup in truck bed: head lowered below shoulders, ears drawn back, worried sideways eye, tail hanging low, hesitant hunched stance"
+   "status": "reject",
+   "confidence": 0.6,
+   "note": "second look: worried head-low pup but tail just hanging, ears soft, not cowering; anxious rather than clear fear"
   },
   "f303557e9": {
    "title": "File:Animals of Iran - Kavir National Park - Qom Province - Deir-e Gachin Caravansarai 01.jpg",
