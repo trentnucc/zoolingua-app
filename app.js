@@ -49,6 +49,15 @@
     }
   };
   const SHORT = { happy: 'Happy', inquisitive: 'Curious', anxious: 'Anxious', frightened: 'Frightened', aggressive: 'Tense' }; // user-facing names; the raw class keys stay internal
+  // Dr. Con's decision tree (sheet dated 2026-01-29): one path per state through tail, ears, mouth, brow, eyes, head.
+  const CUE_KEYS = ['tail', 'ears', 'mouth', 'brow', 'eyes', 'head'];
+  const CUES = {
+    happy:       { tail: 'Up, wagging fast',              ears: 'Up and forward', mouth: 'Completely open',      brow: 'Up',      eyes: 'Open',          head: 'Up' },
+    aggressive:  { tail: 'Up, wagging slowly',            ears: 'Up and forward', mouth: 'Forward, partly open', brow: 'Lowered', eyes: 'Partly closed', head: 'Up' },
+    inquisitive: { tail: 'Horizontal, wagging slowly',    ears: 'Up and forward', mouth: 'Partly open',          brow: 'Neutral', eyes: 'Open',          head: 'Up' },
+    anxious:     { tail: 'Part-way down',                 ears: 'To the side',    mouth: 'Open',                 brow: 'Neutral', eyes: 'Open',          head: 'Partly lowered' },
+    frightened:  { tail: 'Down, pressed tight to the body', ears: 'Pressed back', mouth: 'Open',                 brow: 'Neutral', eyes: 'Open',          head: 'Down' }
+  };
   const CONTEXTS = ['At home', 'With another dog', 'On a walk', 'Eating', 'In the car', 'With a child', 'Other'];
   const CONTEXT_PHRASE = { 'At home': 'at home', 'With another dog': 'with another dog', 'On a walk': 'on a walk', 'Eating': 'while eating', 'In the car': 'in the car', 'With a child': 'with a child', 'Other': '' };
   const CONTEXT_NOTES = {
@@ -73,6 +82,10 @@
         'Every reading is grounded in Dr. Con Slobodchikoff\'s methodology for animal communication: look at the whole body, in context, and treat every signal as information about how the animal feels.',
         '<h3>What each state looks like</h3>Soft eyes, a loose mouth and an easy posture read as relaxed. Forward ears and a focused gaze read as curious. Pinned ears, lip licks and a lowered body read as anxious. Wide eyes, a tucked tail and a crouch read as frightened. A hard stare, a stiff body and bared teeth read as tense. A short clip adds how those change over a few seconds.',
         '<h3>What it does not do</h3>It does not diagnose. Pain, illness and medication all change behavior. If a reading surprises you, the first call is to your vet.'] },
+    { id: 'tree', title: "Dr. Con's decision tree", sub: 'Tail, ears, mouth, brow, eyes, head', swatch: 'ico-teal', icon: 'flow',
+      body: ['Dr. Con reads a dog in a fixed order: tail first, then ears, mouth, brow, eyes and head. Each state has one path through those six cues. Zoolingua\'s readings are checked against this tree, and every result shows the path for the state it found so you can compare it with the dog in front of you.',
+        'TREE_TABLE',
+        '<h3>How to use it</h3>Start at the tail. Up and wagging fast points toward happy; up and wagging slowly toward tense; horizontal toward curious; part-way down toward anxious; pressed tight to the body toward frightened. Then confirm with the ears, mouth, brow, eyes and head. When the cues disagree, trust the body over the face and give the dog space while you watch a little longer.'] },
     { id: 'happy', title: 'Happy & Relaxed', sub: 'What it looks like and what to do', swatch: 'ico-mint', icon: 'smile', emo: 'happy' },
     { id: 'inquisitive', title: 'Curious & Interested', sub: 'The moment before a decision', swatch: 'ico-teal', icon: 'look', emo: 'inquisitive' },
     { id: 'anxious', title: 'Anxious & Unsettled', sub: 'Early signs and quick relief', swatch: 'ico-orange', icon: 'worry', emo: 'anxious' },
@@ -518,6 +531,7 @@
     $('#ctxLine').hidden = !ctxShown && !r.note;
     $('#stepsList').innerHTML = top.steps.map((s) => '<div class="step">' + ICONS.check + '<span>' + esc(s) + '</span></div>').join('');
     $('#helpText').textContent = top.help;
+    $('#cueList').innerHTML = CUE_KEYS.map((k) => '<b>' + k.charAt(0).toUpperCase() + k.slice(1) + '</b><span>' + esc(CUES[r.top][k]) + '</span>').join('');
     const saveBtn = $('#saveBtn'); saveBtn.innerHTML = ICONS.bookmark + (r.saved ? ' Saved to My Dog' : ' Save to My Dog'); saveBtn.disabled = !!r.saved;
     $('#resultWhen').textContent = fmtTime(r.when) + (r.kind === 'video' ? ' · video' : ' · photo');
   };
@@ -603,10 +617,11 @@
   screens.article = function (params) {
     const a = ARTICLES.find((x) => x.id === params.id); if (!a) { back(); return; }
     let body;
+    const cueTable = () => '<div class="table-wrap"><table><thead><tr><th>Cue</th>' + CLASSES.map((c) => '<th>' + SHORT[c] + '</th>').join('') + '</tr></thead><tbody>' + CUE_KEYS.map((k) => '<tr><th>' + k.charAt(0).toUpperCase() + k.slice(1) + '</th>' + CLASSES.map((c) => '<td>' + esc(CUES[c][k]) + '</td>').join('') + '</tr>').join('') + '</tbody></table></div>';
     if (a.emo) {
       const e = EMO[a.emo];
-      body = ['<p>' + esc(e.read) + '</p>', '<h3>What it may mean</h3><p>' + esc(e.mean) + '</p>', '<h3>Why it may be happening</h3><p>' + esc(e.why) + '</p>', '<h3>What to try</h3><ul>' + e.steps.map((s) => '<li>' + esc(s) + '</li>').join('') + '</ul>', '<h3>When to seek more help</h3><p>' + esc(e.help) + '</p>'].join('');
-    } else body = a.body.map((p) => (p.startsWith('<') ? p : '<p>' + p + '</p>')).join('');
+      body = ['<p>' + esc(e.read) + '</p>', "<h3>Dr. Con's cues for this state</h3><div class=\"cues\">" + CUE_KEYS.map((k) => '<b>' + k.charAt(0).toUpperCase() + k.slice(1) + '</b><span>' + esc(CUES[a.emo][k]) + '</span>').join('') + '</div>', '<h3>What it may mean</h3><p>' + esc(e.mean) + '</p>', '<h3>Why it may be happening</h3><p>' + esc(e.why) + '</p>', '<h3>What to try</h3><ul>' + e.steps.map((s) => '<li>' + esc(s) + '</li>').join('') + '</ul>', '<h3>When to seek more help</h3><p>' + esc(e.help) + '</p>'].join('');
+    } else body = a.body.map((p) => (p === 'TREE_TABLE' ? cueTable() : p.startsWith('<') ? p : '<p>' + p + '</p>')).join('');
     $('#articleBody').innerHTML = '<h1>' + esc(a.title) + '</h1><p class="small">' + esc(a.sub) + '</p>' + body + '<div class="badge">' + ICONS.shield + " Grounded in Dr. Con's Animal Behavior Methodology</div>";
   };
 

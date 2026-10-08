@@ -305,6 +305,14 @@ label.field { display: flex; flex-direction: column; gap: 6px; font-size: 13px; 
 .article ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
 .article img { border-radius: var(--radius); }
 .pub { display: grid; grid-template-columns: 56px 1fr; gap: 10px; font-size: 14px; }
+.cues { display: grid; grid-template-columns: 64px 1fr; gap: 6px 12px; font-size: 14px; align-items: baseline; }
+.cues b { color: var(--ink); font-family: var(--font-display); font-weight: 600; }
+.cues span { color: var(--ink-2); }
+.table-wrap { overflow-x: auto; margin: 0 -16px; padding: 0 16px; }
+.article table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 13px; line-height: 1.35; }
+.article th, .article td { text-align: left; padding: 8px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.article th { color: var(--ink); font-family: var(--font-display); font-weight: 600; }
+.article thead th { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
 .pub b { color: var(--ink); font-family: var(--font-display); }
 
 /* ---------- my dog ---------- */

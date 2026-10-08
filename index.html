@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="styles.css?v=9">
+<link rel="stylesheet" href="styles.css?v=10">
 </head>
 <body>
 <div class="app">
@@ -115,6 +115,11 @@
         <p class="lede" id="readText"></p>
         <p class="ctx-line" id="ctxLine" hidden></p>
         <span class="badge" data-icon="shield">Grounded in Dr. Con's Animal Behavior Methodology</span>
+      </div>
+      <div class="card stack">
+        <h3>Dr. Con's cue check</h3>
+        <p class="small">The decision tree's six cues for this state. Compare them with the dog in front of you.</p>
+        <div class="cues" id="cueList"></div>
       </div>
       <div class="card stack">
         <h3>What this may mean</h3><p class="lede" id="meanText"></p>
@@ -295,6 +300,6 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script src="ort/ort.min.js"></script>
-<script src="app.js?v=9"></script>
+<script src="app.js?v=10"></script>
 </body>
 </html>

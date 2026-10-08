@@ -1,0 +1,1122 @@
+{
+ "a4001e617": {
+  "title": "File:Amenaza (8524907622).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Amenaza_(8524907622).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Amenaza_%288524907622%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Amenaza_%288524907622%29.jpg/960px-Amenaza_%288524907622%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "desc": "Colonia Barón, La Pampa",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.6,
+  "note": "clear snarl but top of head cut off and a second calm dog's face fully visible (mixed expressions)"
+ },
+ "a4002d7c8": {
+  "title": "File:Do not take his bone.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Do_not_take_his_bone.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Do_not_take_his_bone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Do_not_take_his_bone.jpg/960px-Do_not_take_his_bone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "desc": "A Chihuahua baring his teeth at the threat of having his bone taken away.",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a4002d7c8.jpg",
+  "thumb_size": [
+   960,
+   1141
+  ],
+  "status": "kept",
+  "confidence": 0.75,
+  "note": "Chihuahua lying over a bone: lips retracted baring incisors, erect ears, wide hard stare at camera (resource-guarding warning); same dog as a40071d63, different photo"
+ },
+ "a40039a1d": {
+  "title": "File:Dog 05-angry.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dog_05-angry.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Dog_05-angry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Dog_05-angry.jpg/960px-Dog_05-angry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 3.0",
+  "desc": "angry dog",
+  "file": null,
+  "thumb_size": [
+   960,
+   1280
+  ],
+  "status": "rejected",
+  "confidence": 0.85,
+  "note": "near-duplicate of a4004deef (uncropped original); keep only one"
+ },
+ "a4004deef": {
+  "title": "File:Dog 05-angry (cropped).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dog_05-angry_(cropped).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Dog_05-angry_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Dog_05-angry_%28cropped%29.jpg/960px-Dog_05-angry_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "desc": "Zähnefletschen eines Hundes an einer Kette, dessen vorher gesendetes Beschwichtigungssignal (File:Dog 06-back (cropped).jpg) von der sich nähernden Person nicht berücksichtigt wurde.",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a4004deef.jpg",
+  "thumb_size": [
+   960,
+   968
+  ],
+  "status": "kept",
+  "confidence": 0.85,
+  "note": "chained dog, lips retracted baring canines and incisors at approaching person (defensive threat)"
+ },
+ "a40056a01": {
+  "title": "File:Growling at the staffy pup.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Growling_at_the_staffy_pup.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Growling_at_the_staffy_pup.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Growling_at_the_staffy_pup.JPG/960px-Growling_at_the_staffy_pup.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "desc": "Older dog corrects Staffordshire terrier puppy",
+  "file": null,
+  "thumb_size": [
+   960,
+   763
+  ],
+  "status": "rejected",
+  "confidence": 0.7,
+  "note": "adult snarls at pup but pup's neutral face is prominent (mixed expressions)"
+ },
+ "a4006350b": {
+  "title": "File:Snarling at the staffy pup.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Snarling_at_the_staffy_pup.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Snarling_at_the_staffy_pup.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Snarling_at_the_staffy_pup.JPG/960px-Snarling_at_the_staffy_pup.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "desc": "Staffy pup",
+  "file": null,
+  "thumb_size": [
+   960,
+   720
+  ],
+  "status": "rejected",
+  "confidence": 0.45,
+  "note": "teeth shown but soft eyes, pup licking muzzle; could read as grin/play"
+ },
+ "a40071d63": {
+  "title": "File:Killer Chihuahua.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Killer_Chihuahua.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Killer_Chihuahua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Killer_Chihuahua.jpg/960px-Killer_Chihuahua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 3.0",
+  "desc": "A Chihuahua protecting its bone.  Photographer's blog post about this image.",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a40071d63.jpg",
+  "thumb_size": [
+   960,
+   878
+  ],
+  "status": "kept",
+  "confidence": 0.9,
+  "note": "Chihuahua guarding bone: open-mouth snarl, bared teeth, whale eye, ears back"
+ },
+ "a4008cfd4": {
+  "title": "File:Panda suojelee omaansa.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Panda_suojelee_omaansa.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Panda_suojelee_omaansa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Panda_suojelee_omaansa.jpg/960px-Panda_suojelee_omaansa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0",
+  "desc": "Border Collie mix guarding his toy.",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a4008cfd4.jpg",
+  "thumb_size": [
+   960,
+   600
+  ],
+  "status": "kept",
+  "confidence": 0.8,
+  "note": "resource guarding toy: open-mouth snarl with bared teeth, hard stare at approaching dog (seen from behind)"
+ },
+ "a4009369a": {
+  "title": "File:2003-09-08 Dog showing aggression.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2003-09-08_Dog_showing_aggression.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2003-09-08_Dog_showing_aggression.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2003-09-08_Dog_showing_aggression.jpg/960px-2003-09-08_Dog_showing_aggression.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "desc": "A protective dog showing mild aggression.",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.5,
+  "note": "subtle: slightly open mouth, tail low; not clearly aggressive"
+ },
+ "a4010d0b9": {
+  "title": "File:Alaska 2020-0226 (50789925183).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Alaska_2020-0226_(50789925183).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Alaska_2020-0226_%2850789925183%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Alaska_2020-0226_%2850789925183%29.jpg/960px-Alaska_2020-0226_%2850789925183%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0",
+  "desc": "Goldstream Husky, Nenana, Alaska",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.2,
+  "note": "husky play-fighting"
+ },
+ "a40114a58": {
+  "title": "File:Beißmonster.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bei%C3%9Fmonster.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Bei%C3%9Fmonster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Bei%C3%9Fmonster.jpg/960px-Bei%C3%9Fmonster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "desc": "",
+  "file": null,
+  "thumb_size": [
+   960,
+   915
+  ],
+  "status": "rejected",
+  "confidence": 0.35,
+  "note": "wide-open mouth with curled tongue looks like a yawn; eyes hidden"
+ },
+ "a4012a4af": {
+  "title": "File:Do i look funny or something.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Do_i_look_funny_or_something.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Do_i_look_funny_or_something.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Do_i_look_funny_or_something.jpg/960px-Do_i_look_funny_or_something.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0",
+  "desc": "what?  Do i look funny or something?",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.4,
+  "note": "lip lift on relaxed lying dog; ambiguous/grin"
+ },
+ "a4013c5cd": {
+  "title": "File:Dogs at Azenhas do Mar.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dogs_at_Azenhas_do_Mar.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Dogs_at_Azenhas_do_Mar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Dogs_at_Azenhas_do_Mar.jpg/960px-Dogs_at_Azenhas_do_Mar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "desc": "Azenhas do Mar, Portugal",
+  "file": null,
+  "thumb_size": [
+   960,
+   595
+  ],
+  "status": "rejected",
+  "confidence": 0.4,
+  "note": "two small terriers mouth-to-mouth, likely play; small in frame"
+ },
+ "a4014f128": {
+  "title": "File:Get Out of My Face!.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Get_Out_of_My_Face!.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Get_Out_of_My_Face%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Get_Out_of_My_Face%21.jpg/960px-Get_Out_of_My_Face%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "desc": "Meet and greet at Dry Creek. Stella is always social. Other dogs -- not always.",
+  "file": null,
+  "thumb_size": [
+   960,
+   742
+  ],
+  "status": "rejected",
+  "confidence": 0.7,
+  "note": "warning snarl but larger neutral Great Dane face also prominent (mixed expressions)"
+ },
+ "a4015b4f0": {
+  "title": "File:Greenland 323 (34777287800).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Greenland_323_(34777287800).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Greenland_323_%2834777287800%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Greenland_323_%2834777287800%29.jpg/960px-Greenland_323_%2834777287800%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0",
+  "desc": "Greenland_323.jpg",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a4015b4f0.jpg",
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "kept",
+  "confidence": 0.75,
+  "note": "chained sled dogs in conflict: crouched dog snarls (teeth bared, ears back), other barks with stiff tail-up stance"
+ },
+ "a4016f487": {
+  "title": "File:Labrador Growl.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Labrador_Growl.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Labrador_Growl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Labrador_Growl.jpg/960px-Labrador_Growl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0",
+  "desc": "Yellow Lab growls at a familiar Border Collie mix.",
+  "file": null,
+  "thumb_size": [
+   960,
+   600
+  ],
+  "status": "rejected",
+  "confidence": 0.6,
+  "note": "growl at familiar dog, could be play-growl; other dog also open-mouthed"
+ },
+ "a40176f1e": {
+  "title": "File:Mad dog.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mad_dog.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Mad_dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Mad_dog.jpg/960px-Mad_dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Angry german shepard.",
+  "file": null,
+  "thumb_size": [
+   960,
+   695
+  ],
+  "status": "rejected",
+  "confidence": 0.95,
+  "note": "duplicate: 'Mad dog.jpg' is an edited derivative of the same photo as a40398b6b; kept the unedited crop"
+ },
+ "a4018ffec": {
+  "title": "File:Mixed-breed guard dog barking.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Mixed-breed_guard_dog_barking.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Mixed-breed_guard_dog_barking.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Mixed-breed_guard_dog_barking.JPG/960px-Mixed-breed_guard_dog_barking.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "desc": "A mixed-breed guard dog barking at an intruder (the photographer) in the village of Walnut Grove, Yunnan, PRC.",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a4018ffec.jpg",
+  "thumb_size": [
+   960,
+   720
+  ],
+  "status": "kept",
+  "confidence": 0.75,
+  "note": "guard dog barking at intruder: stiff forward stance, teeth visible, direct stare"
+ },
+ "a4019155f": {
+  "title": "File:A Beagle snarling.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Beagle_snarling.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/A_Beagle_snarling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/A_Beagle_snarling.jpg/960px-A_Beagle_snarling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "desc": "Coco the Beagle snarling",
+  "file": null,
+  "thumb_size": [
+   960,
+   1206
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "neutral beagle, not snarling"
+ },
+ "a402085fc": {
+  "title": "File:HolyCross17NovMangyDog.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:HolyCross17NovMangyDog.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/HolyCross17NovMangyDog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/HolyCross17NovMangyDog.jpg/960px-HolyCross17NovMangyDog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 3.0",
+  "desc": "New Orleans after Hurricane Katrina. Lower 9th Ward, \"Holy Cross\" section (least severely damaged part of the badly flooded Lower 9th): House in recently reopened section of the city (though officially only for look &amp; leave, not reoccupation) has \"WE R BACK\" painted on it; also note from animal ",
+  "file": null,
+  "thumb_size": [
+   960,
+   720
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "tiny dog behind fence"
+ },
+ "a4021665a": {
+  "title": "File:Bolt's teeth.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bolt%27s_teeth.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Bolt%27s_teeth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Bolt%27s_teeth.jpg/960px-Bolt%27s_teeth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "desc": "Bolt, a Jack Russell terrier showing his teeth.",
+  "file": null,
+  "thumb_size": [
+   960,
+   1076
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "relaxed belly-up grin"
+ },
+ "a40229c16": {
+  "title": "File:Angry dog.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Angry_dog.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Angry_dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Angry_dog.jpg/960px-Angry_dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "desc": "Beautiful picture of a dog",
+  "file": null,
+  "thumb_size": [
+   960,
+   1280
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "wary/appeasing, not angry"
+ },
+ "a40235f0c": {
+  "title": "File:Angry dog @ Doussard @ Walk in Doussard, Faverges, Giez & Lathuile (32205269497).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Angry_dog_@_Doussard_@_Walk_in_Doussard,_Faverges,_Giez_%26_Lathuile_(32205269497).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Angry_dog_%40_Doussard_%40_Walk_in_Doussard%2C_Faverges%2C_Giez_%26_Lathuile_%2832205269497%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Angry_dog_%40_Doussard_%40_Walk_in_Doussard%2C_Faverges%2C_Giez_%26_Lathuile_%2832205269497%29.jpg/960px-Angry_dog_%40_Doussard_%40_Walk_in_Doussard%2C_Faverges%2C_Giez_%26_Lathuile_%2832205269497%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "desc": "Angry dog @ Doussard @ Walk in Doussard, Faverges, Giez &amp; Lathuile",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "tiny dog in landscape"
+ },
+ "a402467f2": {
+  "title": "File:Angry small dog (49614378991).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Angry_small_dog_(49614378991).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Angry_small_dog_%2849614378991%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Angry_small_dog_%2849614378991%29.jpg/960px-Angry_small_dog_%2849614378991%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "desc": "Thank you in advance to add my photos to your favourites.\nYou can see more pictures on &lt;a href=\"http://www.focusonmore.com\" rel=\"noreferrer nofollow\"&gt;www.focusonmore.com&lt;/a&gt;\n\nCheck my &lt;a href=\"https://www.instagram.com/focusonmore/\" rel=\"noreferrer nofollow\"&gt;Instagram&lt;/a&gt; pag",
+  "file": null,
+  "thumb_size": [
+   960,
+   633
+  ],
+  "status": "rejected",
+  "confidence": 0.35,
+  "note": "relaxed lying puppy vocalizing"
+ },
+ "a402572f5": {
+  "title": "File:Big dog with an angry expression.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Big_dog_with_an_angry_expression.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Big_dog_with_an_angry_expression.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Big_dog_with_an_angry_expression.jpg/960px-Big_dog_with_an_angry_expression.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 4.0",
+  "desc": "Big dog with an angry expression",
+  "file": null,
+  "thumb_size": [
+   960,
+   1449
+  ],
+  "status": "rejected",
+  "confidence": 0.2,
+  "note": "head-low look-up, closed mouth: appeasement not anger"
+ },
+ "a4026dd02": {
+  "title": "File:Barking @ Aggressive dog @ Annecy (40248694921).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Barking_@_Aggressive_dog_@_Annecy_(40248694921).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Barking_%40_Aggressive_dog_%40_Annecy_%2840248694921%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Barking_%40_Aggressive_dog_%40_Annecy_%2840248694921%29.jpg/960px-Barking_%40_Aggressive_dog_%40_Annecy_%2840248694921%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "desc": "Barking @ Aggressive dog @ Annecy",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.2,
+  "note": "tiny dog barking in field"
+ },
+ "a40277878": {
+  "title": "File:Chien agressif @ Sillingy (50932687198).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chien_agressif_@_Sillingy_(50932687198).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Chien_agressif_%40_Sillingy_%2850932687198%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Chien_agressif_%40_Sillingy_%2850932687198%29.jpg/960px-Chien_agressif_%40_Sillingy_%2850932687198%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "desc": "Chien agressif @ Sillingy",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.4,
+  "note": "barking behind mesh, eyes closed, face obscured"
+ },
+ "a4028e8cb": {
+  "title": "File:Chihuahua Guard Dog.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chihuahua_Guard_Dog.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Chihuahua_Guard_Dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Chihuahua_Guard_Dog.jpg/960px-Chihuahua_Guard_Dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "desc": "This little guy started barking at me while I was trying to take pictures by the railroad track",
+  "file": null,
+  "thumb_size": [
+   960,
+   768
+  ],
+  "status": "rejected",
+  "confidence": 0.4,
+  "note": "bark with eyes closed/head up, no snarl or stare"
+ },
+ "a40299726": {
+  "title": "File:A dog mid-bark.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:A_dog_mid-bark.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/A_dog_mid-bark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/A_dog_mid-bark.jpg/960px-A_dog_mid-bark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "desc": "Lucky establishes some barking presence among the neighbor dogs walking by",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.2,
+  "note": "soft-eyed alert bark"
+ },
+ "a40301d85": {
+  "title": "File:Territory defending dogs 1720.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Territory_defending_dogs_1720.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Territory_defending_dogs_1720.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Territory_defending_dogs_1720.jpg/960px-Territory_defending_dogs_1720.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 3.0",
+  "desc": "Hunde verteidigen ihr Revier",
+  "file": null,
+  "thumb_size": [
+   960,
+   636
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "small dog behind fence, no clear expression"
+ },
+ "a4031e4cd": {
+  "title": "File:Territorial dog in Serra da Penha.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Territorial_dog_in_Serra_da_Penha.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Territorial_dog_in_Serra_da_Penha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Territorial_dog_in_Serra_da_Penha.jpg/960px-Territorial_dog_in_Serra_da_Penha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0",
+  "desc": "Dog guarding his ground.\n\nSerra da Penha, 2011.",
+  "file": null,
+  "thumb_size": [
+   960,
+   643
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "neutral/alert dog on wall"
+ },
+ "a40328e66": {
+  "title": "File:Brown dog barking.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Brown_dog_barking.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Brown_dog_barking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Brown_dog_barking.jpg/960px-Brown_dog_barking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Brown dog barking",
+  "file": null,
+  "thumb_size": [
+   960,
+   720
+  ],
+  "status": "rejected",
+  "confidence": 0.3,
+  "note": "alert barking vizsla"
+ },
+ "a403345e4": {
+  "title": "File:MWD Vantor- a closer look at lethality (9934110).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:MWD_Vantor-_a_closer_look_at_lethality_(9934110).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/MWD_Vantor-_a_closer_look_at_lethality_%289934110%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/MWD_Vantor-_a_closer_look_at_lethality_%289934110%29.jpg/960px-MWD_Vantor-_a_closer_look_at_lethality_%289934110%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "U.S. Air Force Military Working Dog Vantor, 100th Security Forces Squadron, snarls during routine training at RAF Mildenhall, England, Aug. 14, 2026. The MWDs are irreplaceable force multipliers that contribute directly to mission success and total force safety. (U.S. Air Force photo by Airman 1st C",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a403345e4.jpg",
+  "thumb_size": [
+   960,
+   1440
+  ],
+  "status": "kept",
+  "confidence": 0.85,
+  "note": "close-up snarl: lips retracted exposing canines, wrinkled nose, squinted hard stare"
+ },
+ "a403476c5": {
+  "title": "File:USMC-050916-M-7131A-004.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:USMC-050916-M-7131A-004.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/USMC-050916-M-7131A-004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/USMC-050916-M-7131A-004.jpg/960px-USMC-050916-M-7131A-004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "CAMP AL QA'IM, Iraq (Sept. 16, 2005) - Spike, a three-year-old Belgian Melinios military working dog snarls in anticipation before being released by his handler, Phoenix native Sgt. Jerrod M. Glass, military police working dog handler, 2nd Military Police Battalion, Regimental Combat Team - 2. (Offi",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a403476c5.jpg",
+  "thumb_size": [
+   960,
+   651
+  ],
+  "status": "kept",
+  "confidence": 0.9,
+  "note": "Malinois lunging on leash at decoy: bared teeth, wrinkled muzzle, low forward body; no human faces"
+ },
+ "a403548e0": {
+  "title": "File:Military Working Dog Unit Training Camp Lemonnier DVIDS165231.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Military_Working_Dog_Unit_Training_Camp_Lemonnier_DVIDS165231.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Military_Working_Dog_Unit_Training_Camp_Lemonnier_DVIDS165231.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Military_Working_Dog_Unit_Training_Camp_Lemonnier_DVIDS165231.jpg/960px-Military_Working_Dog_Unit_Training_Camp_Lemonnier_DVIDS165231.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "U.S. Military Working dog \"Timmy\" growls to protect his handler, Petty Officer 2nd Class Victor A. Longoria, assigned to the Military Working Dog Unit at Camp Lemonier, Djibouti, April 14, after completing explosive detection certification training. Petty Officer Longoria and \"Timmy\" are one of the ",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a403548e0.jpg",
+  "thumb_size": [
+   960,
+   1381
+  ],
+  "status": "kept",
+  "confidence": 0.8,
+  "note": "GSD growl-bark with all canines bared, ears forward, restrained by handler (handler face cropped out)"
+ },
+ "a40360b63": {
+  "title": "File:Canines bite into work 131125-F-BH151-183.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Canines_bite_into_work_131125-F-BH151-183.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Canines_bite_into_work_131125-F-BH151-183.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Canines_bite_into_work_131125-F-BH151-183.jpg/960px-Canines_bite_into_work_131125-F-BH151-183.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Becky, 97th Security Forces Squadron military working dog, growls at a suspect during civil aggression training Nov. 25, 2013. Military working dogs are trained to bite and hold onto the suspect until their handler gives the command to release. (U.S. Air Force photo by Senior Airman Lausanne Genuino",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a40360b63.jpg",
+  "thumb_size": [
+   960,
+   639
+  ],
+  "status": "kept",
+  "confidence": 0.85,
+  "note": "Malinois growling at 'suspect': open mouth, teeth bared, direct stare, leaning forward on leash"
+ },
+ "a4037771f": {
+  "title": "File:USMC-090727-M-4150N-220.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:USMC-090727-M-4150N-220.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/USMC-090727-M-4150N-220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/USMC-090727-M-4150N-220.jpg/960px-USMC-090727-M-4150N-220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Jack, a military working dog with the Combat Center's Provost Marshal's Office barks ferociously while being handled July 27, by his trainer, Cpl. Timothy Culhane, a working dog handler and a Rochester, N.Y., native, during their training.",
+  "file": null,
+  "thumb_size": [
+   960,
+   1440
+  ],
+  "status": "rejected",
+  "confidence": 0.85,
+  "note": "ferocious bark but handler face large and prominent behind dog"
+ },
+ "a403866e0": {
+  "title": "File:Flickr - DVIDSHUB - 51st Fighter Wing security forces (Image 5 of 5).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_DVIDSHUB_-_51st_Fighter_Wing_security_forces_(Image_5_of_5).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Flickr_-_DVIDSHUB_-_51st_Fighter_Wing_security_forces_%28Image_5_of_5%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Flickr_-_DVIDSHUB_-_51st_Fighter_Wing_security_forces_%28Image_5_of_5%29.jpg/960px-Flickr_-_DVIDSHUB_-_51st_Fighter_Wing_security_forces_%28Image_5_of_5%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Fanta, a 51st Fighter Wing military working dog, barks at a \"bad guy\" at Osan Air Base, South Korea, June 20. Military working dogs work closely with their handlers and perform duties that range from drug and explosive detection to patrol.\nPublic Affairs Mentoring Team\nPhoto by Senior Airman Evelyn ",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a403866e0.jpg",
+  "thumb_size": [
+   960,
+   686
+  ],
+  "status": "kept",
+  "confidence": 0.8,
+  "note": "GSD snarl-bark: lips retracted over incisors/canines, wrinkled muzzle; handler small in background"
+ },
+ "a40398b6b": {
+  "title": "File:Military dog barking (cropped).JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Military_dog_barking_(cropped).JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Military_dog_barking_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Military_dog_barking_%28cropped%29.JPG/960px-Military_dog_barking_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "OFFUTT AIR FORCE BASE, Neb. -- Norman, a 55th Security Forces Squadron military working dog, waits to be unleashed and go after his target during training April 17. The Offutt K-9 unit performs regular training to maximize the dogs' effectiveness on the field of duty.",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a40398b6b.jpg",
+  "thumb_size": [
+   960,
+   810
+  ],
+  "status": "kept",
+  "confidence": 0.95,
+  "note": "German Shepherd full snarl: wrinkled muzzle, all teeth bared, hard eye"
+ },
+ "a4040141a": {
+  "title": "File:USMC-11272.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:USMC-11272.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/USMC-11272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/USMC-11272.jpg/960px-USMC-11272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Rico, a military police working dog, barks at nearby person. Rico is one of several dogs from Marine Corps Air Station Beaufort that helps protect Parris Island.",
+  "file": null,
+  "thumb_size": [
+   960,
+   600
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "relaxed open-mouth pant"
+ },
+ "a4041c8b8": {
+  "title": "File:Military Working Dogs training in Baghdad, Iraq DVIDS173833.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Military_Working_Dogs_training_in_Baghdad,_Iraq_DVIDS173833.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Military_Working_Dogs_training_in_Baghdad%2C_Iraq_DVIDS173833.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Military_Working_Dogs_training_in_Baghdad%2C_Iraq_DVIDS173833.jpg/960px-Military_Working_Dogs_training_in_Baghdad%2C_Iraq_DVIDS173833.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "U.S. Military Working Dog Chris barks at U.S. Army Staff Sgt. Brian Moreno, kennel master attached to 3rd Brigade Combat Team, 82nd Airborne Division, during training in subject control techniques at Joint Security Station Loyalty, eastern Baghdad, Iraq, on May 15.",
+  "file": null,
+  "thumb_size": [
+   960,
+   1443
+  ],
+  "status": "rejected",
+  "confidence": 0.45,
+  "note": "young dog barking up at bite sleeve; drive/frustration bark, no snarl or stare"
+ },
+ "a40421d31": {
+  "title": "File:Military Working Dogs training in Baghdad, Iraq DVIDS173839.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Military_Working_Dogs_training_in_Baghdad,_Iraq_DVIDS173839.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Military_Working_Dogs_training_in_Baghdad%2C_Iraq_DVIDS173839.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Military_Working_Dogs_training_in_Baghdad%2C_Iraq_DVIDS173839.jpg/960px-Military_Working_Dogs_training_in_Baghdad%2C_Iraq_DVIDS173839.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "U.S. Military Working Dog Chris barks at U.S. Army Staff Sgt. Brian Moreno, kennel master attached to 3rd Brigade Combat Team, 82nd Airborne Division, as he brings him under control during training in subject control techniques at Joint Security Station Loyalty, eastern Baghdad, Iraq, on May 15.",
+  "file": null,
+  "thumb_size": [
+   960,
+   1443
+  ],
+  "status": "rejected",
+  "confidence": 0.4,
+  "note": "sitting dog barking up at sleeve; face turned up, not readable"
+ },
+ "a4043d97b": {
+  "title": "File:Canine teams hound victory at Top Dog competition 160516-F-RA202-059.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Canine_teams_hound_victory_at_Top_Dog_competition_160516-F-RA202-059.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Canine_teams_hound_victory_at_Top_Dog_competition_160516-F-RA202-059.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Canine_teams_hound_victory_at_Top_Dog_competition_160516-F-RA202-059.jpg/960px-Canine_teams_hound_victory_at_Top_Dog_competition_160516-F-RA202-059.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Benjo, 374th Security Forces Squadron military working dog, barks at a simulated active shooter at Yokota Air Base, Japan, May 16, 2016. Benjo helped neutralize the shooter during Yokota’s Top Dog competition, where he competed with working dogs from across Japan in various categories such as high r",
+  "file": null,
+  "thumb_size": [
+   960,
+   642
+  ],
+  "status": "rejected",
+  "confidence": 0.6,
+  "note": "dog face partly blocked by decoy's head; human prominent"
+ },
+ "a40440aff": {
+  "title": "File:379th AEW A3 visits MWD kennels (8469299).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:379th_AEW_A3_visits_MWD_kennels_(8469299).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/379th_AEW_A3_visits_MWD_kennels_%288469299%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/379th_AEW_A3_visits_MWD_kennels_%288469299%29.jpg/960px-379th_AEW_A3_visits_MWD_kennels_%288469299%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "A military working dog assigned to the 379th Expeditionary Security Forces Squadron barks during a demonstration at an undisclosed location within the U.S. Central Command area of responsibility, June 7, 2024. The 379th ESFS is responsible for the safety and security of more than 8,000 Air Force, jo",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a40440aff.jpg",
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "kept",
+  "confidence": 0.8,
+  "note": "Malinois snarl-bark: wrinkled muzzle, retracted lips, canines bared; people small in background"
+ },
+ "a40453c09": {
+  "title": "File:USMC-100311-M-4669D-001.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:USMC-100311-M-4669D-001.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/USMC-100311-M-4669D-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/USMC-100311-M-4669D-001.jpg/960px-USMC-100311-M-4669D-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Lance Cpl. Dustin Campbell, provost marshal’s office military dog handler, holds back Rex, a military working dog, from Chad Conley, Cocopah Police Department dog handler, during an aggressor demonstration at a training warehouse off Avenue B in Yuma, Ariz., March 11, 2010. The police department has",
+  "file": null,
+  "thumb_size": [
+   960,
+   638
+  ],
+  "status": "rejected",
+  "confidence": 0.7,
+  "note": "prominent shouting human faces"
+ },
+ "a40462463": {
+  "title": "File:Altus’ working dog team enhances security forces mission 150210-F-HB285-091.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Altus%E2%80%99_working_dog_team_enhances_security_forces_mission_150210-F-HB285-091.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Altus%E2%80%99_working_dog_team_enhances_security_forces_mission_150210-F-HB285-091.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Altus%E2%80%99_working_dog_team_enhances_security_forces_mission_150210-F-HB285-091.jpg/960px-Altus%E2%80%99_working_dog_team_enhances_security_forces_mission_150210-F-HB285-091.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Yyoda, a U.S. Air Force military working dog, lunges at U.S. Air Force Senior Airman Laci Mendez, 97th Security Forces Squadron working dog handler, after being provoked through aggressive body posturing and verbal cues during training at the kennels Feb. 10, 2015. Military working dogs are trained ",
+  "file": null,
+  "thumb_size": [
+   960,
+   686
+  ],
+  "status": "rejected",
+  "confidence": 0.5,
+  "note": "prominent decoy face; dog face in profile, unclear"
+ },
+ "a4047d27d": {
+  "title": "File:Belgian Malinois CChyna shows off her ability to bite.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Belgian_Malinois_CChyna_shows_off_her_ability_to_bite.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Belgian_Malinois_CChyna_shows_off_her_ability_to_bite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Belgian_Malinois_CChyna_shows_off_her_ability_to_bite.jpg/960px-Belgian_Malinois_CChyna_shows_off_her_ability_to_bite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Nine-year-old Belgian Malinois, Cchyna, lunges full-force towards military working dog handler Lance Cpl. John P. Schnack during a demonstration, Feb. 26. According to Lance Cpl. Luis D. Vallejo, a military working dog handler with PMO, they are constantly training their canine counterparts for any ",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.4,
+  "note": "mid-bite on sleeve; crowd faces prominent"
+ },
+ "a4048d460": {
+  "title": "File:MWD unleashed 140812-F-GR156-062.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:MWD_unleashed_140812-F-GR156-062.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/MWD_unleashed_140812-F-GR156-062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/MWD_unleashed_140812-F-GR156-062.jpg/960px-MWD_unleashed_140812-F-GR156-062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Pita, 22nd Security Forces Squadron military working dog, lunges toward a MWD handler for training purposes, Aug. 12, 2014, at McConnell Air Force Base, Kan. (U.S. Air Force photo/Airman 1st Class John Linzmeier)\nUnit: 22nd Air Refueling Wing Public Affairs",
+  "file": null,
+  "thumb_size": [
+   960,
+   639
+  ],
+  "status": "rejected",
+  "confidence": 0.6,
+  "note": "leaping at decoy, small head; reads as bite-drive more than threat"
+ },
+ "a404980b3": {
+  "title": "File:MWD unleashed 140812-F-GR156-139.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:MWD_unleashed_140812-F-GR156-139.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/MWD_unleashed_140812-F-GR156-139.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/MWD_unleashed_140812-F-GR156-139.jpg/960px-MWD_unleashed_140812-F-GR156-139.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Pita, 22nd Security Forces Squadron military working dog, lunges toward a MWD handler for training purposes, Aug. 12, 2014, at McConnell Air Force Base, Kan. (U.S. Air Force photo/Airman 1st Class John Linzmeier)\nUnit: 22nd Air Refueling Wing Public Affairs",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "running dog, no threat expression"
+ },
+ "a4050e887": {
+  "title": "File:21SW-SFS military working dogs in action (939745).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:21SW-SFS_military_working_dogs_in_action_(939745).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/21SW-SFS_military_working_dogs_in_action_%28939745%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/21SW-SFS_military_working_dogs_in_action_%28939745%29.jpg/960px-21SW-SFS_military_working_dogs_in_action_%28939745%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Military working dog Uumbro lunges at \"perpetrator\"\nStaff Sgt. Billy Deleon while under the control of his handler, Staff Sgt. Tommy Carter. Both are members of the 21st Security Forces Squadron's military working dog unit showing their skills during a \n\nMWD and firearms demonstration at Peterson Ai",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.2,
+  "note": "tiny dog in wide scene"
+ },
+ "a40514db9": {
+  "title": "File:100th SFS wows spectators with working dog demo 120708-F-UA873-375.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:100th_SFS_wows_spectators_with_working_dog_demo_120708-F-UA873-375.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/100th_SFS_wows_spectators_with_working_dog_demo_120708-F-UA873-375.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/100th_SFS_wows_spectators_with_working_dog_demo_120708-F-UA873-375.jpg/960px-100th_SFS_wows_spectators_with_working_dog_demo_120708-F-UA873-375.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Military Working Dog Ferro lunges at K-9 handler Staff Sgt. Billy Lofton, 100th Security Forces Squadron, RAF Mildenhall, during a demonstration at the Tibenham Heritage Air Festival July 8, 2012. The demonstration allowed spectators to see first-hand the abilities of the highly trained animals.",
+  "file": null,
+  "thumb_size": [
+   960,
+   554
+  ],
+  "status": "rejected",
+  "confidence": 0.4,
+  "note": "leap at decoy, crowd faces prominent"
+ },
+ "a4052466e": {
+  "title": "File:USMC-090422-M-2510M-017.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:USMC-090422-M-2510M-017.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/USMC-090422-M-2510M-017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/USMC-090422-M-2510M-017.jpg/960px-USMC-090422-M-2510M-017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Brit, a military working dog with Task Force Military Police, 3rd Battalion, 3rd Marine Regiment, gets ready to take a lunge at a ‘suspect’ wearing a bite suit during training aboard Al Asad Air Base, Iraq, April 22, 2009. Military working dog detachments serve an integral role in Multi National For",
+  "file": null,
+  "thumb_size": [
+   960,
+   688
+  ],
+  "status": "rejected",
+  "confidence": 0.2,
+  "note": "calm/alert dog"
+ },
+ "a405314e3": {
+  "title": "File:Military Working Dog Aggression Training 161104-M-QX129-087.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Military_Working_Dog_Aggression_Training_161104-M-QX129-087.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Military_Working_Dog_Aggression_Training_161104-M-QX129-087.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Military_Working_Dog_Aggression_Training_161104-M-QX129-087.jpg/960px-Military_Working_Dog_Aggression_Training_161104-M-QX129-087.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "A U.S. Marine agitates a Military Working Dog (MWD) while conducting aggression training at Kadena Air Base, Okinawa, Japan, Nov. 4, 2016. U.S. Marine Corps dog handlers conduct aggression training in order to prepare the MWD’s for real life scenarios. (U.S. Marine Corps photo by Lance Cpl. Christia",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.2,
+  "note": "sitting dog looking up eagerly"
+ },
+ "a405401f5": {
+  "title": "File:Canines bite into work 131125-F-BH151-020.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Canines_bite_into_work_131125-F-BH151-020.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Canines_bite_into_work_131125-F-BH151-020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Canines_bite_into_work_131125-F-BH151-020.jpg/960px-Canines_bite_into_work_131125-F-BH151-020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "U.S. Air Force Staff Sgt. Wesley Cox, 97th Security Forces Squadron military working dog trainer, holds back Zeus, military working dog, during bite work training Nov. 25, 2013. Military working dogs are trained to bite and hold onto the suspect until their handler gives the command to release. (U.S",
+  "file": null,
+  "thumb_size": [
+   960,
+   639
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "relaxed panting dog, smiling handler"
+ },
+ "a405517f5": {
+  "title": "File:PMO K-9 unit conducts bite training 150415-M-TH981-003.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PMO_K-9_unit_conducts_bite_training_150415-M-TH981-003.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/PMO_K-9_unit_conducts_bite_training_150415-M-TH981-003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/PMO_K-9_unit_conducts_bite_training_150415-M-TH981-003.jpg/960px-PMO_K-9_unit_conducts_bite_training_150415-M-TH981-003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Lance Cpl. Michael Foster (left), a dog trainer with the Provost Marshal’s Office, restrains military working dog Ronni as he lunges at Civilian Military Police Officer Travis Cleaveland, playing the decoy officer, during bite training at the PMO Field, April 15, 2015. (U.S. Marine Corps photo by Ja",
+  "file": null,
+  "thumb_size": [
+   960,
+   680
+  ],
+  "status": "rejected",
+  "confidence": 0.5,
+  "note": "rearing excited bark, no snarl; handler face visible"
+ },
+ "a4056ae62": {
+  "title": "File:Dogs of Grafenwöhr (9256171).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dogs_of_Grafenw%C3%B6hr_(9256171).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Dogs_of_Grafenw%C3%B6hr_%289256171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Dogs_of_Grafenw%C3%B6hr_%289256171%29.jpg/960px-Dogs_of_Grafenw%C3%B6hr_%289256171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "U.S. Army military working dog Lucky, assigned to the Combined Military Working Dog Detachment–Europe, 18th Military Police Brigade, conducts aggressive training at U.S. Army Garrison Bavaria, Germany, Aug. 13, 2025. The training reinforces teamwork and enhances the unit’s operational readiness.",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a4056ae62.jpg",
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "kept",
+  "confidence": 0.85,
+  "note": "Malinois lunging on leash: mouth open with canines bared, stiff forward stance, tail up; no faces"
+ },
+ "a4057be64": {
+  "title": "File:Dogs of Grafenwöhr (9258465).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dogs_of_Grafenw%C3%B6hr_(9258465).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Dogs_of_Grafenw%C3%B6hr_%289258465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Dogs_of_Grafenw%C3%B6hr_%289258465%29.jpg/960px-Dogs_of_Grafenw%C3%B6hr_%289258465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "U.S. Army military working dog Edzsi, assigned to the Combined Military Working Dog Detachment–Europe, 18th Military Police Brigade, conducts aggressive training at U.S. Army Garrison Bavaria, Germany, Aug. 13, 2025. The training reinforces teamwork and enhances the unit’s operational readiness.",
+  "file": null,
+  "thumb_size": [
+   960,
+   1344
+  ],
+  "status": "rejected",
+  "confidence": 0.7,
+  "note": "lunging bark, could read as excited; smiling handler face in background"
+ },
+ "a4058c652": {
+  "title": "File:Dogs of Grafenwöhr (9258467).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dogs_of_Grafenw%C3%B6hr_(9258467).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Dogs_of_Grafenw%C3%B6hr_%289258467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Dogs_of_Grafenw%C3%B6hr_%289258467%29.jpg/960px-Dogs_of_Grafenw%C3%B6hr_%289258467%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "U.S. Army military working dog Busa, assigned to the Combined Military Working Dog Detachment–Europe, 18th Military Police Brigade, conducts aggressive training at U.S. Army Garrison Bavaria, Germany, Aug. 13, 2025. The training reinforces teamwork and enhances the unit’s operational readiness.",
+  "file": null,
+  "thumb_size": [
+   960,
+   768
+  ],
+  "status": "rejected",
+  "confidence": 0.6,
+  "note": "intense charge but no snarl; could be eagerness"
+ },
+ "a405989b8": {
+  "title": "File:K9s of Ansbach (9029079).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:K9s_of_Ansbach_(9029079).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/K9s_of_Ansbach_%289029079%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/K9s_of_Ansbach_%289029079%29.jpg/960px-K9s_of_Ansbach_%289029079%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "MWD Poker, a military working dog assigned to the Combined Military Working Dog Detachment - Europe, 18th Military Police Brigade, protects his handler in part of bite aggressive training on 13 February 2025, USAG Ansbach, Germany.",
+  "file": null,
+  "thumb_size": [
+   960,
+   768
+  ],
+  "status": "rejected",
+  "confidence": 0.4,
+  "note": "mid-bite on sleeve"
+ },
+ "a406038cc": {
+  "title": "File:Desert Defenders DVIDS212121.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Desert_Defenders_DVIDS212121.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Desert_Defenders_DVIDS212121.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Desert_Defenders_DVIDS212121.jpg/960px-Desert_Defenders_DVIDS212121.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Staff Sgt. John Coddington, 380th Expeditionary Security Forces Squadron, restrains Gizmo, a 12-year-old Belgian Malinois, military working dog with the 380th ESFS, Oct. 10. Coddington is deployed from Vandenberg Air Force Base, Calif., and calls San Diego, Calif., home.",
+  "file": null,
+  "thumb_size": [
+   960,
+   1443
+  ],
+  "status": "rejected",
+  "confidence": 0.9,
+  "note": "textbook snarl-bark but handler's large face right behind dog"
+ },
+ "a4061ccb8": {
+  "title": "File:A military dog.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:A_military_dog.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/A_military_dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/A_military_dog.jpg/960px-A_military_dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "A military working dog and its handler participate in training June 20, 2011, at Otsan Air Base, South Korea.",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a4061ccb8.jpg",
+  "thumb_size": [
+   960,
+   1344
+  ],
+  "status": "kept",
+  "confidence": 0.85,
+  "note": "GSD braced, snarl-bark with lips retracted and all teeth bared, wrinkled nose; handler secondary (sunglasses/helmet)"
+ },
+ "a40629203": {
+  "title": "File:Warm Up with K9 (8793177).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Warm_Up_with_K9_(8793177).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Warm_Up_with_K9_%288793177%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Warm_Up_with_K9_%288793177%29.jpg/960px-Warm_Up_with_K9_%288793177%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Assan, 35th Security Forces Squadron military working dog, prepares to bark at command at Misawa Air Base, Japan, Nov. 26, 2024. MWDs train on a daily basis, whether it's obedience, bite work, or detecting odors for explosive and narcotics detection to prepare for different scenarios and potential t",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "backlit silhouette"
+ },
+ "a40638484": {
+  "title": "File:Schutzhund trial, guarding test.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Schutzhund_trial,_guarding_test.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Schutzhund_trial%2C_guarding_test.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Schutzhund_trial%2C_guarding_test.jpg/960px-Schutzhund_trial%2C_guarding_test.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "desc": "A Doberman at a Schutzhund trial during the protection phase, guarding the decoy (man)(Joel Monroe, Big Valley Dog Training; Delhi, CA)",
+  "file": null,
+  "thumb_size": [
+   960,
+   1434
+  ],
+  "status": "rejected",
+  "confidence": 0.5,
+  "note": "sport hold-and-bark, face turned up away"
+ },
+ "a4064085b": {
+  "title": "File:Dogs defend Bagram 121221-F-LR266-327.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dogs_defend_Bagram_121221-F-LR266-327.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Dogs_defend_Bagram_121221-F-LR266-327.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Dogs_defend_Bagram_121221-F-LR266-327.jpg/960px-Dogs_defend_Bagram_121221-F-LR266-327.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Mayo, a military working dog, demonstrates his “patrol training” at Bagram Air Field, Afghanistan, Dec. 21, 2012. Mayo, an 8-year-old German Shepherd, from Luke Air Force Base, Ariz., has been deployed to BAF twice in the past four years.  (U.S. Air Force photo/Senior Airman Chris Willis)",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.6,
+  "note": "motion-blurred"
+ },
+ "a4065ceae": {
+  "title": "File:Bark and bite 140215-F-JH807-096.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bark_and_bite_140215-F-JH807-096.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Bark_and_bite_140215-F-JH807-096.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Bark_and_bite_140215-F-JH807-096.jpg/960px-Bark_and_bite_140215-F-JH807-096.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Staff Sgt. Barton Gonzales, 4th Security Forces Squadron military working dog (MWD) handler, and Tonic, 4th SFS MWD, prepare to conduct a search during the annual Wayne County Woof Fest, Feb. 15, 2014, in Dudley, N.C.  Woof Fest is a yearly event for patrons to celebrate their love for dogs. The tea",
+  "file": null,
+  "thumb_size": [
+   960,
+   638
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "calm dog, tongue out; humans prominent"
+ },
+ "a4066499e": {
+  "title": "File:Protecting Netanyahu ^2 - Flickr - alisdare1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Protecting_Netanyahu_%5E2_-_Flickr_-_alisdare1.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Protecting_Netanyahu_%5E2_-_Flickr_-_alisdare1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Protecting_Netanyahu_%5E2_-_Flickr_-_alisdare1.jpg/960px-Protecting_Netanyahu_%5E2_-_Flickr_-_alisdare1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0",
+  "desc": "One of several police dogs deployed on Friday 24 March 2023, as hundreds gathered in central London to protest the rolling out of a red carpet at Number 10 Downing Street for Israel's prime minister, Benjamin Netanyahu.   \nيوم الجمعة 24 مارس 2023 ، تجمع المئات في وسط لندن للاحتجاج على طرح السجادة ال",
+  "file": "C:\\Users\\trent\\zoolingua-app\\qa\\eval\\pool\\a4066499e.jpg",
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "kept",
+  "confidence": 0.9,
+  "note": "police GSD on leash snarling: canines bared, wrinkled muzzle, stiff forward stance; handler face out of frame"
+ },
+ "a40670055": {
+  "title": "File:Dog-fight.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dog-fight.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Dog-fight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/84/Dog-fight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 4.0",
+  "desc": "locals watching the dog fight",
+  "file": null,
+  "thumb_size": [
+   960,
+   960
+  ],
+  "status": "rejected",
+  "confidence": 0.0,
+  "note": "crowd, no visible dogs"
+ },
+ "a4068c29a": {
+  "title": "File:Barking dog at Velas, São Jorge, Azores, Portugal (PPL3-Altered) julesvernex2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Barking_dog_at_Velas,_S%C3%A3o_Jorge,_Azores,_Portugal_(PPL3-Altered)_julesvernex2.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Barking_dog_at_Velas%2C_S%C3%A3o_Jorge%2C_Azores%2C_Portugal_%28PPL3-Altered%29_julesvernex2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Barking_dog_at_Velas%2C_S%C3%A3o_Jorge%2C_Azores%2C_Portugal_%28PPL3-Altered%29_julesvernex2.jpg/960px-Barking_dog_at_Velas%2C_S%C3%A3o_Jorge%2C_Azores%2C_Portugal_%28PPL3-Altered%29_julesvernex2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "desc": "Barking dog at Velas, São Jorge, Azores, Portugal (PPL3-Altered)",
+  "file": null,
+  "thumb_size": [
+   960,
+   780
+  ],
+  "status": "rejected",
+  "confidence": 0.1,
+  "note": "calm dog on wall"
+ },
+ "a40696c02": {
+  "title": "File:2020-09-22 a Shiba Inu barking.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2020-09-22_a_Shiba_Inu_barking.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/2020-09-22_a_Shiba_Inu_barking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/2020-09-22_a_Shiba_Inu_barking.jpg/960px-2020-09-22_a_Shiba_Inu_barking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "desc": "a Shiba Inu barking",
+  "file": null,
+  "thumb_size": [
+   960,
+   640
+  ],
+  "status": "rejected",
+  "confidence": 0.4,
+  "note": "dog-park barking among several dogs, possibly play"
+ },
+ "a40703d12": {
+  "title": "File:US Navy 050120-N-7293M-127 Brenda, a Military Working Dog (MWD), reacts to an aggressive suspect during a training exercise held at San Luis Beach on board Naval Base Guam.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:US_Navy_050120-N-7293M-127_Brenda,_a_Military_Working_Dog_(MWD),_reacts_to_an_aggressive_suspect_during_a_training_exercise_held_at_San_Luis_Beach_on_board_Naval_Base_Guam.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/US_Navy_050120-N-7293M-127_Brenda%2C_a_Military_Working_Dog_%28MWD%29%2C_reacts_to_an_aggressive_suspect_during_a_training_exercise_held_at_San_Luis_Beach_on_board_Naval_Base_Guam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/US_Navy_050120-N-7293M-127_Brenda%2C_a_Military_Working_Dog_%28MWD%29%2C_reacts_to_an_aggressive_suspect_during_a_training_exercise_held_at_San_Luis_Beach_on_board_Naval_Base_Guam.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "desc": "Santa Rita, Guam (Jan. 20, 2005) - Brenda, a Military Working Dog (MWD), reacts to an aggressive suspect during a training exercise held at San Luis Beach on board Naval Base Guam. MWD Brenda and her handler, Master-at-Arms 1st Class Zantria White, are assigned to the K-9 Unit of the Naval Security ",
+  "file": null,
+  "thumb_size": [
+   960,
+   1463
+  ],
+  "status": "rejected",
+  "confidence": 0.5,
+  "note": "handler face prominent; dog open-mouthed, no snarl"
+ }
+}
